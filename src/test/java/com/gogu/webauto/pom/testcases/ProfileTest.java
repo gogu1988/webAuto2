@@ -19,6 +19,7 @@ public class ProfileTest {
 		System.out.println("TEstig");
 		System.out.println("Gogu");
 		System.out.println("hello");
+		System.out.println("Hello 2");
 		HomePage gotoLoginPag1e = PageFactory.initElements(driver, HomePage.class);
 	}
 	
