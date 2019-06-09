@@ -18,6 +18,7 @@ public class ProfileTest {
 		WebDriver driver = new FirefoxDriver();
 		System.out.println("TEstig");
 		System.out.println("Gogu");
+		System.out.println("hello");
 		HomePage gotoLoginPag1e = PageFactory.initElements(driver, HomePage.class);
 	}
 	
