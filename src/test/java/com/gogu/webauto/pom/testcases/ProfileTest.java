@@ -16,7 +16,8 @@ public class ProfileTest {
 		System.setProperty("webdriver.gecko.driver", "D:/Learning/Software/geckodriver.exe");
 		//System.setProperty("webdriver.chrome.driver", "D:/Learning/Software/chromedriver.exe");
 		WebDriver driver = new FirefoxDriver();
-		HomePage gotoLoginPage = PageFactory.initElements(driver, HomePage.class);
+		System.out.println("TEstig");
+		HomePage gotoLoginPag1e = PageFactory.initElements(driver, HomePage.class);
 	}
 	
 
